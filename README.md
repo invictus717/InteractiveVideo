@@ -12,7 +12,7 @@
 <a target="_blank" href="https://huggingface.co/spaces/Yiyuan/InteractiveVideo">
   <img src="https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg" alt="Open in HugginFace"/>
 </a>
-<a target="_blank" href="https://huggingface.co/spaces/Yiyuan/InteractiveVideo">
+<a target="_blank" href="https://www.youtube.com/watch?v=61_iS_ltxsc">
   <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg" alt="Youtube Video"/>
 </a>
 
