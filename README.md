@@ -12,6 +12,9 @@
 <a target="_blank" href="https://huggingface.co/spaces/Yiyuan/InteractiveVideo">
   <img src="https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg" alt="Open in HugginFace"/>
 </a>
+<a target="_blank" href="https://huggingface.co/spaces/Yiyuan/InteractiveVideo">
+  <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg" alt="Youtube Video"/>
+</a>
 
 
 ## 🔆 Introduction
@@ -51,7 +54,7 @@
   <td><img src=assets/edit/1-result.gif width="210" height='210'></td>
   <tr>
   <td style="text-align:center;" width="210">"flowers."</td>
-  <td style="text-align:center;" width="210">"flowers, bee"</td>
+  <td style="text-align:center;" width="210">"flowers."</td>
   <td style="text-align:center;" width="210">"windy, the flowers are shaking in the wind"</td>
   <tr>
 </table >
@@ -62,7 +65,7 @@
   <td><img src=assets/edit/2-result.gif width="210" height='210'></td>
   <tr>
   <td style="text-align:center;" width="210">"1 Man."</td>
-  <td style="text-align:center;" width="210">"1 Man."</td>
+  <td style="text-align:center;" width="210">"1 Man, rose."</td>
   <td style="text-align:center;" width="210">"1 Man, smiling."</td>
   <tr>
 </table >
