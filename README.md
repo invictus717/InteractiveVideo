@@ -7,7 +7,7 @@
 </p>
 
 [![arXiv](https://img.shields.io/badge/arxiv-2402.xxxxx-b31b1b?style=plastic&color=b31b1b&link=https%3A%2F%2Farxiv.org%2Fabs%2F2402.xxxxx)](xxx)
-[![website](https://img.shields.io/badge/Project-Website-brightgreen)](https://invictus717.github.io/InteractiveVideo-Dev/)
+[![website](https://img.shields.io/badge/Project-Website-brightgreen)](https://invictus717.github.io/InteractiveVideo/)
 [![Discord](https://dcbadge.vercel.app/api/server/vm9AJByvej?style=flat)](https://discord.gg/vm9AJByvej)
 <a target="_blank" href="https://huggingface.co/spaces/Yiyuan/InteractiveVideo">
   <img src="https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg" alt="Open in HugginFace"/>
