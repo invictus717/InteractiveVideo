@@ -1,6 +1,6 @@
 
 
-## ___***InteractiveVideo: User-Centric Video Generation by Interacting Synergistic Multimodal Instructions***___
+## ___***InteractiveVideo: User-Centric Controllable Video Generation with Synergistic Multimodal Instructions***___
 
 <p align="center" width="100%">
 <img src="assets/banner.gif"  width="100%" height="50%">
@@ -9,7 +9,9 @@
 [![arXiv](https://img.shields.io/badge/arxiv-2402.xxxxx-b31b1b?style=plastic&color=b31b1b&link=https%3A%2F%2Farxiv.org%2Fabs%2F2402.xxxxx)](xxx)
 [![website](https://img.shields.io/badge/Project-Website-brightgreen)](https://invictus717.github.io/InteractiveVideo-Dev/)
 [![Discord](https://dcbadge.vercel.app/api/server/vm9AJByvej?style=flat)](https://discord.gg/vm9AJByvej)
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-blue)](https://huggingface.co/spaces/Yiyuan/InteractiveVideo)
+<a target="_blank" href="https://huggingface.co/spaces/Yiyuan/InteractiveVideo">
+  <img src="https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg" alt="Open in HugginFace"/>
+</a>
 
 
 ## 🔆 Introduction
@@ -224,11 +226,11 @@ You can also drag images. First, you should choose a proper checkpoint in the "D
 ## 😉 Citation
 If the code and paper help your research, please kindly cite:
 ```
-@article{xxx,
-      title={InteractiveVideo: User-Centric Video Generation by Interacting Synergistic Multimodal Instructions}, 
-      author={xxx},
-      year={xxx},
-      eprint={xxx},
+@article{zhang2024interactivevideo,
+      title={InteractiveVideo: User-Centric Controllable Video Generation with Synergistic Multimodal Instructions}, 
+      author={Zhang, Yiyuan and Kang, Yuhao and Zhang, Zhixin and Ding, Xiaohan and Zhao, Sanyuan and Yue, Xiangyu},
+      year={2024},
+      eprint={2402.xxxxx},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
