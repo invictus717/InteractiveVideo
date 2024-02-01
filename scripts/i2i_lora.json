@@ -1,4 +1,0 @@
-{
-    "https://huggingface.co/latent-consistency/lcm-lora-sdxl/resolve/main/pytorch_lora_weights.safetensors?download=true": "checkpoints/i2i/lora/lcm-lora-sdxl.safetensors",
-    "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors?download=true": "checkpoints/i2i/lora/lcm-lora-sdv1-5.safetensors"
-}

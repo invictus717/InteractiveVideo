@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-526XZTX2C6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-526XZTX2C6');
+  </script>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>InteractiveVideo: User-Centric Video Generation by Interacting Synergistic Multimodal Instructions</title>
+  <link rel="icon" type="image/x-icon" href="static/images/cuhk.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <!-- <style>
+    .non-proportional-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: fill; /* This property ensures non-proportional scaling */
+    }
+  </style> -->
+  <style>
+    .non-proportional-cell img {
+      width: 210;
+      height: 210;
+      object-fit: fill; /* Ensure non-proportional scaling */
+    }
+  </style>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-3 publication-title">InteractiveVideo: User-Centric Video Generation by Interacting Synergistic Multimodal Instructions</h1>
+          <img src="assets/banner.gif" width="80%"></img>
+          <div class="is-size-5 publication-authors">
+            <!-- Paper authors -->
+            <span class="author-block">
+            <span class="author-block">
+              <a href="https://invictus717.github.io/" target="_blank">Yiyuan Zhang</a><sup>1</sup>,</span>
+            </span>
+              <a href="https://github.com/aipursuing" target="_blank">Yuhao Kang</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://github.com/cnzzx/" target="_blank">Zhixin Zhang</a><sup>2</sup>,</span>
+            <br>
+            <span class="author-block">
+              <a href="https://dingxiaohan.xyz/" target="_blank">Xiaohan Ding</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=t7dAaE8AAAAJ&hl=en&oi=ao" target="_blank">Sanyuan Zhao</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://xyue.io/" target="_blank">Xiangyu Yue</a><sup>1</sup>
+            </span>
+          </div>
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block">
+                  <sup>1</sup>Multimedia Lab, The Chinese University of Hong Kong   
+                  <br>
+                  <sup>2</sup>Beijing Institute of Technology
+                  <sup>3</sup>Tencent AI Lab
+                </span>
+              </div>
+              
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2401.xxxxx" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                <span>arXiv</span>
+                </a>
+                </span>
+
+                <!-- Arxiv PDF link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2401.xxxxx.pdf" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                  </a>
+                </span>
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://github.com/invictus717/InteractiveVideo" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+                </span>
+
+                <span class="link-block">
+                  <a href="https://huggingface.co/spaces/Yiyuan/InteractiveVideo" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                  <i class="fab fa-github"></i>
+                  </span>
+                  <span>Demo</span>
+                  </a>
+                  </span>
+                
+                <span class="link-block">
+                  <a href="https://discord.gg/vm9AJByvej" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                  <i class="fab fa-github"></i>
+                  </span>
+                  <span>Discord</span>
+                  </a>
+                  </span>
+                <!-- Huggingface link -->
+                <a href="https://huggingface.co/spaces/Yiyuan/InteractiveVideo">
+                  <img src="assets/icons/huggingface.png" width="45" height="45">
+                </a>
+                <!-- YouTube link -->
+                <a href="https://www.youtube.com/watch?v=dU4XN4GQ1y4">
+                  <img src="https://img.icons8.com/color/48/000000/youtube-play.png" width="45" height="45">
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--
+<video poster="" id="tree" autoplay controls muted loop height="100%">
+
+  <source src="static/videos/banner_video.mp4"
+  type="video/mp4">
+</video>
+-->
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+
+      <h2 class="subtitle has-text-centered">
+        <span></span> 1. Persoanlize A Video. 
+      </h2>
+      <table class="center">
+        <td><img src=assets/personalize/1-origin.jpg width="210" height='210'></td>
+        <td><img src=assets/personalize/1-prompt.jpg width="210" height='210'></td>
+        <td><img src=assets/personalize/1-result.gif width="210" height='210'></td>
+        <tr>
+        <td style="text-align:center;" width="210">"Purple Flowers."</td>
+        <td style="text-align:center;" width="210">"Purple Flowers, bee"</td>
+        <td style="text-align:center;" width="210">"the purple flowers are shaking, a bee is flying"</td>
+        <tr>
+      </table >
+      
+      <table class="center">
+        <td><img src=assets/personalize/2-origin.png width="210" height='210'></td>
+        <td><img src=assets/personalize/2-prompt.png width="210" height='210'></td>
+        <td><img src=assets/personalize/2-result.gif width="210" height='210'></td>
+        <tr>
+        <td style="text-align:center;" width="210">"1 Cat."</td>
+        <td style="text-align:center;" width="210">"1 Cat, butterfly"</td>
+        <td style="text-align:center;" width="210">"the small yellow butterfly is flying to the cat's face"</td>
+        <tr>
+      </table >
+      <br>
+      <h2 class="subtitle has-text-centered">
+        <span></span> 2. Fine-Grained Video Editing. 
+      </h2>
+      <table class="center">
+        <td><img src=assets/edit/1-origin.jpg width="210" height='210'></td>
+        <td><img src=assets/edit/1-prompt.jpg width="210" height='210'></td>
+        <td><img src=assets/edit/1-result.gif width="210" height='210'></td>
+        <tr>
+        <td style="text-align:center;" width="210">"flowers."</td>
+        <td style="text-align:center;" width="210">"flowers, bee"</td>
+        <td style="text-align:center;" width="210">"windy, the flowers are shaking in the wind"</td>
+        <tr>
+      </table >
+      
+      <table class="center">
+        <td><img src=assets/edit/2-origin.jpg width="210" height='210'></td>
+        <td><img src=assets/edit/2-prompt.jpg width="210" height='210'></td>
+        <td><img src=assets/edit/2-result.gif width="210" height='210'></td>
+        <tr>
+        <td style="text-align:center;" width="210">"1 Man."</td>
+        <td style="text-align:center;" width="210">"1 Man, rose."</td>
+        <td style="text-align:center;" width="210">"1 Man, smiling."</td>
+        <tr>
+      </table >
+
+      <br>
+      <h2 class="subtitle has-text-centered">
+        <span></span> 3. Precise Motion Control. 
+      </h2>
+
+      <table class="center">
+        <td><img src=assets/motion/1-origin.png width="210" height='210'></td>
+        <td><img src=assets/motion/1-result.gif width="210" height='210'></td>
+        <td><img src=assets/motion/2-result.gif width="210" height='210'></td>
+        <tr>
+        <td style="text-align:center;" width="210">"1 man, dark light "</td>
+        <td style="text-align:center;" width="210">"the man is turning his body"</td>
+        <td style="text-align:center;" width="210">"the man is turning his body"</td>
+        <tr>
+      </table >
+      
+      <table class="center">
+        <td><img src=assets/motion/2-origin.jpg width="210" height='210'></td>
+        <td><img src=assets/motion/3-result.gif width="210" height='210'></td>
+        <td><img src=assets/motion/4-result.gif width="210" height='210'></td>
+        <tr>
+        <td style="text-align:center;" width="210">"1 beautiful girl with long black hair, and a flower on her head, clouds"</td>
+        <td style="text-align:center;" width="210">" the girl is turning gradually"</td>
+        <td style="text-align:center;" width="210">" the girl is turning gradually"</td>
+        <tr>
+      </table >
+      
+      <br>
+      <h2 class="subtitle has-text-centered">
+        <span></span> 4. Customized Dress Up. 
+      </h2>
+
+      <table class="center">
+        <td><img src=assets/dress/origin.jpg width="210" height='210' object-fit="cover"></td>
+        <td><img src=assets/dress/dressing1.gif width="210" height='210'></td>
+        <td><img src=assets/dress/dressing2.gif width="210" height='210'></td>
+        <tr>
+        <td style="text-align:center;" width="210">"Yae Miko" (Genshin Impact)</td>
+        <td style="text-align:center;" width="210">"Dressing Up "</td>
+        <td style="text-align:center;" width="210">"Dressing Up"</td>
+        <tr>
+      </table >
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+
+<!-- Paper abstract -->
+<section class="section hero ">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We introduce ``InteractiveVideo'', a user-centric framework for video generation.	Different from traditional generative approaches that operate based on user-provided images or text, our framework is designed for dynamic interaction, allowing users to instruct the generative model through various intuitive mechanisms during the whole generation process, 
+e.g. text and image prompts, human painting, drag-and-drop, etc.
+ We propose a Synergistic Multimodal Instruction mechanism, designed to seamlessly integrate user's multimodal instructions into generative models, thus facilitating a cooperative and responsive interaction between user inputs and the generative process.
+ This approach enables iterative and fine-grained refinement of the generation result through precise and effective user instructions. 
+ With InteractiveVideo, users have the flexibility to meticulously tailor key aspects of a video until their requirements are fully satisfied, by instructing image generation, painting the image, editing image semantics, and adjusting video motions. 
+ As a result, our framework can generate videos of high visual quality.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<div class="columns is-centered has-text-centered">
+  <HR align=center style="border:3 double #000000" width="80%" SIZE=5>
+</div>
+
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column ">
+        <h2 class="title is-3">Comparison with Existing Methods </h2>
+        <!-- <p>* We leverage the <a href="https://www.youtube.com/watch?v=Nf-d9CcEZ2w&t=1s&ab_channel=Google" target="_blank">Demo Video</a> 
+          of <a href="https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/" target="_blank">Google Pathways</a> 
+          for better understanding.</p>
+          <br>
+        <div class="center-div">
+          <img width="750px" src="static/images/pathway.gif" alt="MY ALT TEXT"/>
+        </div>    -->
+        <table align="center">
+          <td style="text-align:center;" width="210">InteractiveVideo</td>
+          <td style="text-align:center;" width="210">Gen-2</td>
+          <td style="text-align:center;" width="210">PikaLabs</td>
+          <td style="text-align:center;" width="210">I2VGen-XL</td>
+          <tr></tr>
+          <td><video src="assets/cmp/InteractiveVideo-3.mp4" width="210" height="210" muted autoplay="autoplay" loop="loop"></video></td>
+          <td><video src="assets/cmp/gen-2-3.mp4" width="210" height="210" muted autoplay="autoplay" loop="loop"></video></td>
+          <td><video src="assets/cmp/pikalabs-3.mp4" width="210" height="210" muted autoplay="autoplay" loop="loop"></video></td>
+          <td><video src="assets/cmp/i2vgen-xl-3.mp4" width="210" height="210" muted autoplay="autoplay" loop="loop"></video></td>
+          <tr></tr>
+          <td colspan="4" style="text-align:center;" width="210">"the clouds are moving"</td>
+        </table >
+        <br>
+        <table align="center">
+          <td><video src="assets/cmp/InteractiveVideo-1.mp4" width="210" height="210" muted autoplay="autoplay" loop="loop"></video></td>
+          <td><video src="assets/cmp/gen-2-1.mp4" width="210" height="210" muted autoplay="autoplay" loop="loop"></video></td>
+          <td><video src="assets/cmp/pikalabs-1.mp4" width="210" height="210" muted autoplay="autoplay" loop="loop"></video></td>
+          <td><video src="assets/cmp/i2vgen-xl-1.mp4" width="210" height="210" muted autoplay="autoplay" loop="loop"></video></td>
+          <tr></tr>
+          <td colspan="4" style="text-align:center;" width="210">"the tide is flooding"</td>
+        </table>
+        <br>
+        <table align="center">
+          <td><video src="assets/cmp/InteractiveVideo-2.mp4" width="210" height="210" muted autoplay="autoplay" loop="loop"></video></td>
+          <td><video src="assets/cmp/gen-2-2.mp4" width="210" height="210" muted autoplay="autoplay" loop="loop"></video></td>
+          <td><video src="assets/cmp/pikalabs-2.mp4" width="210" height="210" muted autoplay="autoplay" loop="loop"></video></td>
+          <td><video src="assets/cmp/i2vgen-xl-2.mp4" width="210" height="210" muted autoplay="autoplay" loop="loop"></video></td>
+          <tr></tr>
+          <td colspan="4" style="text-align:center;" width="210">"the clouds are becoming dark"</td>
+        </table>
+        <br>
+        <table>
+          <td><video src="assets/cmp/InteractiveVideo-4.mp4" width="210" height="210" muted autoplay="autoplay" loop="loop"></video></td>
+          <td><video src="assets/cmp/gen-2-4.mp4" width="210" height="210" muted autoplay="autoplay" loop="loop"></video></td>
+          <td><video src="assets/cmp/pikalabs-4.mp4" width="210" height="210" muted autoplay="autoplay" loop="loop"></video></td>
+          <td><video src="assets/cmp/i2vgen-xl-4.mp4" width="210" height="210" muted autoplay="autoplay" loop="loop"></video></td>
+          <tr></tr>
+          <td colspan="4" style="text-align:center;" width="210">"the snow is melting"</td>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="columns is-centered has-text-centered">
+  <HR align=center style="border:3 double #000000" width="80%" SIZE=5>
+</div>
+
+
+<!-- Video end
+<div class="center-div">
+</div>
+<br>
+<table align="center" width="600px">
+  <tbody>
+      <tr>
+          <td>
+              <div class="center-div">
+                <iframe width="750px" height="415" src="https://www.youtube.com/embed/V8L8xbsTyls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>               
+          </td>
+      </tr>
+      <tr>
+  </tbody>
+</table> -->
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column ">
+        <h2 class="title is-3">Try InteractiveVideo now !</h2>
+        <iframe
+          src="https://yiyuan-interactivevideo.hf.space"
+          frameborder="0"
+          width="1200"
+          height="600"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="columns is-centered has-text-centered">
+  <HR align=center style="border:3 double #000000" width="80%" SIZE=5>
+</div>
+
+
+<!-- Result -->
+<!-- <section class="section hero is-light"> -->
+
+<!-- End paper abstract -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      If you find our work useful, please cite our paper. BibTex code is provided below:
+      <pre><code>@article{xxxxx,
+          title={InteractiveVideo: User-Centric Video Generation by Interacting Synergistic Multimodal Instructions},
+          author={Zhang, Yiyuan and Kang, Yuhao and Zhang, Zhixin and Ding, Xiaohan and Zhao, Sanyuan and Yue, Xiangyu},
+          journal={arXiv preprint arXiv:2401.xxxxx},
+          year={2024}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
