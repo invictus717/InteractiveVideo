@@ -1,0 +1,17 @@
+{
+    "https://huggingface.co/KBlueLeaf/kohaku-v2.1/resolve/main/model_index.json?download=true": "checkpoints/diffusion_body/kohaku-v2.1/model_index.json",
+    "https://huggingface.co/KBlueLeaf/kohaku-v2.1/resolve/main/unet/diffusion_pytorch_model.bin?download=true": "checkpoints/diffusion_body/kohaku-v2.1/unet/diffusion_pytorch_model.bin",
+    "https://huggingface.co/KBlueLeaf/kohaku-v2.1/resolve/main/unet/config.json?download=true": "checkpoints/diffusion_body/kohaku-v2.1/unet/config.json",
+    "https://huggingface.co/KBlueLeaf/kohaku-v2.1/resolve/main/vae/diffusion_pytorch_model.bin?download=true": "checkpoints/diffusion_body/kohaku-v2.1/vae/diffusion_pytorch_model.bin",
+    "https://huggingface.co/KBlueLeaf/kohaku-v2.1/resolve/main/vae/config.json?download=true": "checkpoints/diffusion_body/kohaku-v2.1/vae/config.json",
+    "https://huggingface.co/KBlueLeaf/kohaku-v2.1/resolve/main/text_encoder/pytorch_model.bin?download=true": "checkpoints/diffusion_body/kohaku-v2.1/text_encoder/pytorch_model.bin",
+    "https://huggingface.co/KBlueLeaf/kohaku-v2.1/resolve/main/text_encoder/config.json?download=true": "checkpoints/diffusion_body/kohaku-v2.1/text_encoder/config.json",
+    "https://huggingface.co/KBlueLeaf/kohaku-v2.1/resolve/main/tokenizer/vocab.json?download=true": "checkpoints/diffusion_body/kohaku-v2.1/tokenizer/vocab.json",
+    "https://huggingface.co/KBlueLeaf/kohaku-v2.1/resolve/main/tokenizer/tokenizer_config.json?download=true": "checkpoints/diffusion_body/kohaku-v2.1/tokenizer/tokenizer_config.json",
+    "https://huggingface.co/KBlueLeaf/kohaku-v2.1/resolve/main/tokenizer/special_tokens_map.json?download=true": "checkpoints/diffusion_body/kohaku-v2.1/tokenizer/special_tokens_map.json",
+    "https://huggingface.co/KBlueLeaf/kohaku-v2.1/resolve/main/tokenizer/merges.txt?download=true": "checkpoints/diffusion_body/kohaku-v2.1/tokenizer/merges.txt",
+    "https://huggingface.co/KBlueLeaf/kohaku-v2.1/resolve/main/scheduler/scheduler_config.json?download=true": "checkpoints/diffusion_body/kohaku-v2.1/scheduler/scheduler_config.json",
+    "https://huggingface.co/KBlueLeaf/kohaku-v2.1/resolve/main/feature_extractor/preprocessor_config.json?download=true": "checkpoints/diffusion_body/kohaku-v2.1/feature_extractor/preprocessor_config.json",
+    "https://huggingface.co/KBlueLeaf/kohaku-v2.1/resolve/main/safety_checker/config.json?download=true": "checkpoints/diffusion_body/kohaku-v2.1/safety_checker/config.json",
+    "https://huggingface.co/KBlueLeaf/kohaku-v2.1/resolve/main/safety_checker/pytorch_model.bin?download=true": "checkpoints/diffusion_body/kohaku-v2.1/safety_checker/pytorch_model.bin"
+}

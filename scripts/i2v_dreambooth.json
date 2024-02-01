@@ -1,0 +1,5 @@
+{
+    "https://huggingface.co/frankjoshua/realisticVisionV51_v51VAE/resolve/main/realisticVisionV51_v51VAE.safetensors?download=true": "checkpoints/i2v/dreambooth/realisticVisionV51_v51VAE.safetensors",
+    "https://civitai.com/api/download/models/71009": "checkpoints/i2v/dreambooth/rcnzCartoon3d_v10.safetensors",
+    "https://civitai.com/api/download/models/82446": "checkpoints/i2v/dreambooth/majicmixRealistic_v5.safetensors"
+}

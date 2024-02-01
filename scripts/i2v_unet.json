@@ -1,0 +1,3 @@
+{
+    "https://huggingface.co/Leoxing/PIA/resolve/main/pia.ckpt?download=true": "checkpoints/i2v/unet/pia.ckpt"
+}
