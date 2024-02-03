@@ -16,6 +16,9 @@
   <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg" alt="Youtube Video"/>
 </a>
 
+<p align="center" width="100%">
+<img src="assets/inst/inst.gif"  width="100%" height="50%">
+</p>
 
 ## 🔆 Introduction
 
