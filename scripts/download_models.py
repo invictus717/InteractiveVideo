@@ -28,6 +28,35 @@ DIR_JS = [
 ]
 
 
+def download_with_requests(url, filepath):
+    from tqdm import tqdm
+    import requests
+    # Streaming, so we can iterate over the response.
+    response = requests.get(url, stream=True)
+    # Sizes in bytes.
+    total_size = int(response.headers.get("content-length", 0))
+    block_size = 1024
+    with tqdm(total=total_size, unit="B", unit_scale=True) as progress_bar:
+        with open(filepath, "wb") as file:
+            for data in response.iter_content(block_size):
+                progress_bar.update(len(data))
+                file.write(data)
+    if total_size != 0 and progress_bar.n != total_size:
+        raise RuntimeError("Could not download file")
+
+def download(file_url, file_out):
+    if 'drive.google.com' in file_url:
+        print('downloading with gdown')
+        gdown.download(url=file_url, output=file_out)
+    else:
+        if os.name == 'nt':     # for Windows, use requests to download
+            print('downloading with python requests package')
+            download_with_requests(file_url, file_out)
+        else:                   # simply use wget to download
+            print('downloading with wget')
+            os.system(f'wget -c {file_url} -O {file_out}')
+
+
 # download diffusion body models
 for js in DIR_JS:
     with open(js, 'r', encoding='utf-8') as f:
@@ -36,10 +65,7 @@ for js in DIR_JS:
         file_dir = os.path.dirname(file_out)
         if not os.access(file_dir, os.F_OK):
             os.makedirs(file_dir)
-        if 'drive.google.com' in file_url:
-            gdown.download(url=file_url, output=file_out)
-        else:
-            os.system(f'wget -c {file_url} -O {file_out}')
+        download(file_url, file_out)
 
 
 # download single checkpoints
@@ -47,7 +73,4 @@ for js in FILE_JS:
     with open(js, 'r', encoding='utf-8') as f:
         file_dict = json.load(f)
     for file_url, file_out in file_dict.items():
-        if 'drive.google.com' in file_url:
-            gdown.download(url=file_url, output=file_out)
-        else:
-            os.system(f'wget -c {file_url} -O {file_out}')
+        download(file_url, file_out)
