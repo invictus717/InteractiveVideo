@@ -37,7 +37,7 @@ pillow==9.5.0
 imageio==2.33.1
 # GUI requirements
 pyqt5==5.15.10  # Local Demo
-gradio==3.44.0  # Web Demo
+gradio==4.11.0  # Web Demo
 # others
 opencv-python-headless==4.9.0.80
 transformers==4.35.2
